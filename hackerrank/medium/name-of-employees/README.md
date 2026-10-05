@@ -1,4 +1,4 @@
-# Higher Than 75 Marks
+# Employee Names
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -25,13 +25,12 @@ where _employee\_id_ is an employee's ID number, _name_ is their name, _months_ 
 **Language:** db2  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T12:07:37.077Z  
+**Submitted:** 2026-10-05T12:10:23.965Z  
 
 ```db2
-SELECT NAME
-FROM STUDENTS
-WHERE MARKS > 75
-ORDER BY RIGHT(NAME,3),ID;
+SELECT NAME 
+FROM EMPLOYEE
+ORDER BY NAME ASC;
 
 ```
 
